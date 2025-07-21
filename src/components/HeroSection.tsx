@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Cpu, Database, Zap } from "lucide-react";
 import heroImage from "@/assets/hero-industrial.jpg";
+import flowguardLogo from "@/assets/flowguard-logo.png";
 
 const HeroSection = () => {
   return (
@@ -25,11 +26,24 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-20 container mx-auto px-6 text-center text-white">
         <div className="max-w-4xl mx-auto animate-fade-in">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+          {/* Logo Integration */}
+          <div className="flex items-center justify-center space-x-4 mb-8">
+            <img 
+              src={flowguardLogo} 
+              alt="FlowGuard Logo" 
+              className="h-16 w-auto animate-float"
+            />
+            <div className="text-left">
+              <h1 className="text-3xl md:text-4xl font-bold text-white tracking-tight">FLOWGUARD</h1>
+              <p className="text-white/80 text-sm">Industrial AI Solutions</p>
+            </div>
+          </div>
+          
+          <h2 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
             Intelligent <span className="text-accent">Industrial</span>
             <br />
             Solutions with AI
-          </h1>
+          </h2>
           
           <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-3xl mx-auto leading-relaxed">
             We design, develop, deploy, and maintain cutting-edge LLM+RAG solutions 
