@@ -6,27 +6,27 @@ const ServicesSection = () => {
   const services = [
     {
       icon: Lightbulb,
-      title: "Design",
-      description: "Architect intelligent solutions tailored to your industrial environment and operational requirements.",
-      features: ["System Architecture", "Interface Design", "Workflow Planning", "Requirements Analysis"]
+      title: "Diseñar",
+      description: "Arquitectura de soluciones inteligentes adaptadas a tu entorno industrial y requerimientos operacionales.",
+      features: ["Arquitectura de Sistema", "Diseño de Interfaces", "Planificación de Flujos", "Análisis de Requerimientos"]
     },
     {
       icon: Code,
-      title: "Develop",
-      description: "Build robust LLM+RAG systems with seamless PLC integration and industrial-grade reliability.",
-      features: ["Custom AI Models", "OT Integration", "Secure APIs", "Performance Optimization"]
+      title: "Desarrollar",
+      description: "Construir sistemas LLM+RAG robustos con integración PLC perfecta y confiabilidad de grado industrial.",
+      features: ["Modelos IA Personalizados", "Integración OT", "APIs Seguras", "Optimización de Rendimiento"]
     },
     {
       icon: Rocket,
-      title: "Deploy",
-      description: "Implement your solution with minimal downtime and comprehensive testing protocols.",
-      features: ["Zero-Downtime Migration", "Testing & Validation", "Training & Support", "Go-Live Assistance"]
+      title: "Desplegar",
+      description: "Implementar tu solución con tiempo de inactividad mínimo y protocolos de pruebas exhaustivos.",
+      features: ["Migración Sin Tiempo Muerto", "Pruebas y Validación", "Entrenamiento y Soporte", "Asistencia Go-Live"]
     },
     {
       icon: Settings,
-      title: "Maintain",
-      description: "Ensure continuous operation with proactive monitoring and intelligent maintenance.",
-      features: ["24/7 Monitoring", "Predictive Maintenance", "Updates & Patches", "Performance Tuning"]
+      title: "Mantener",
+      description: "Asegurar operación continua con monitoreo proactivo y mantenimiento inteligente.",
+      features: ["Monitoreo 24/7", "Mantenimiento Predictivo", "Actualizaciones y Parches", "Ajuste de Rendimiento"]
     }
   ];
 
@@ -35,11 +35,11 @@ const ServicesSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-            Complete <span className="text-primary">Solution Lifecycle</span>
+            Ciclo de Vida <span className="text-primary">Completo de Soluciones</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            From initial concept to ongoing optimization, we provide end-to-end services 
-            for your industrial AI transformation journey.
+            Desde el concepto inicial hasta la optimización continua, proporcionamos servicios 
+            de extremo a extremo para tu jornada de transformación industrial con IA.
           </p>
         </div>
 
@@ -72,7 +72,7 @@ const ServicesSection = () => {
                   variant="outline" 
                   className="w-full mt-6 group-hover:border-primary group-hover:text-primary transition-colors"
                 >
-                  Learn More
+                  Saber Más
                 </Button>
               </CardContent>
             </Card>

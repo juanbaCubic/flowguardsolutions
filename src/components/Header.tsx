@@ -7,10 +7,10 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
-    { label: "Services", href: "#services" },
-    { label: "Technology", href: "#technology" },
-    { label: "Solutions", href: "#solutions" },
-    { label: "Contact", href: "#contact" },
+    { label: "Servicios", href: "#services" },
+    { label: "Tecnología", href: "#technology" },
+    { label: "Soluciones", href: "#solutions" },
+    { label: "Contacto", href: "#contact" },
   ];
 
   return (
@@ -26,7 +26,7 @@ const Header = () => {
             />
             <div className="text-white">
               <h1 className="text-xl font-bold tracking-tight">FLOWGUARD</h1>
-              <p className="text-xs text-white/70 -mt-1">Industrial AI Solutions</p>
+              <p className="text-xs text-white/70 -mt-1">Soluciones IA Industrial</p>
             </div>
           </div>
 
@@ -46,10 +46,10 @@ const Header = () => {
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center space-x-4">
             <Button variant="glass" size="sm">
-              Login
+              Iniciar Sesión
             </Button>
             <Button variant="accent" size="sm">
-              Get Demo
+              Ver Demo
             </Button>
           </div>
 
@@ -78,10 +78,10 @@ const Header = () => {
               ))}
               <div className="flex flex-col space-y-2 pt-4">
                 <Button variant="glass" size="sm">
-                  Login
+                  Iniciar Sesión
                 </Button>
                 <Button variant="accent" size="sm">
-                  Get Demo
+                  Ver Demo
                 </Button>
               </div>
             </nav>

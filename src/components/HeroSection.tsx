@@ -35,28 +35,28 @@ const HeroSection = () => {
             />
             <div className="text-left">
               <h1 className="text-3xl md:text-4xl font-bold text-white tracking-tight">FLOWGUARD</h1>
-              <p className="text-white/80 text-sm">Industrial AI Solutions</p>
+              <p className="text-white/80 text-sm">Soluciones IA Industrial</p>
             </div>
           </div>
           
           <h2 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-            Intelligent <span className="text-accent">Industrial</span>
+            Soluciones <span className="text-accent">Industriales</span>
             <br />
-            Solutions with AI
+            Inteligentes con IA
           </h2>
           
           <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-3xl mx-auto leading-relaxed">
-            We design, develop, deploy, and maintain cutting-edge LLM+RAG solutions 
-            for industrial environments. Connect your OT systems through embedded PCs 
-            and unlock intelligent plant monitoring.
+            Diseñamos, desarrollamos, desplegamos y mantenemos soluciones LLM+RAG de vanguardia 
+            para entornos industriales. Conecta tus sistemas OT a través de PCs embebidos 
+            y desbloquea el monitoreo inteligente de plantas.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <Button variant="accent" size="lg" className="text-lg px-8 py-4">
-              Get Started <ArrowRight className="ml-2 h-5 w-5" />
+              Comenzar <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             <Button variant="glass" size="lg" className="text-lg px-8 py-4">
-              View Demo
+              Ver Demo
             </Button>
           </div>
 
@@ -66,24 +66,24 @@ const HeroSection = () => {
               <div className="w-16 h-16 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center mb-4 border border-white/20">
                 <Cpu className="h-8 w-8 text-accent" />
               </div>
-              <h3 className="font-semibold text-lg mb-2">Embedded Computing</h3>
-              <p className="text-white/80 text-center">Industrial-grade embedded PCs with robust OT interfaces</p>
+              <h3 className="font-semibold text-lg mb-2">Computación Embebida</h3>
+              <p className="text-white/80 text-center">PCs embebidos de grado industrial con interfaces OT robustas</p>
             </div>
 
             <div className="flex flex-col items-center animate-slide-up" style={{ animationDelay: '0.4s' }}>
               <div className="w-16 h-16 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center mb-4 border border-white/20">
                 <Database className="h-8 w-8 text-accent" />
               </div>
-              <h3 className="font-semibold text-lg mb-2">RAG Integration</h3>
-              <p className="text-white/80 text-center">Advanced retrieval-augmented generation for plant intelligence</p>
+              <h3 className="font-semibold text-lg mb-2">Integración RAG</h3>
+              <p className="text-white/80 text-center">Generación aumentada por recuperación avanzada para inteligencia de planta</p>
             </div>
 
             <div className="flex flex-col items-center animate-slide-up" style={{ animationDelay: '0.6s' }}>
               <div className="w-16 h-16 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center mb-4 border border-white/20">
                 <Zap className="h-8 w-8 text-accent" />
               </div>
-              <h3 className="font-semibold text-lg mb-2">Real-time Insights</h3>
-              <p className="text-white/80 text-center">Query plant status and get intelligent responses instantly</p>
+              <h3 className="font-semibold text-lg mb-2">Insights en Tiempo Real</h3>
+              <p className="text-white/80 text-center">Consulta el estado de la planta y obtén respuestas inteligentes al instante</p>
             </div>
           </div>
         </div>

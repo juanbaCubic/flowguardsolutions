@@ -9,33 +9,33 @@ const TechnologySection = () => {
   const capabilities = [
     {
       icon: Network,
-      title: "PLC Integration",
-      description: "Direct connection to Siemens, Allen-Bradley, Schneider Electric, and other major PLC systems"
+      title: "Integración PLC",
+      description: "Conexión directa a sistemas Siemens, Allen-Bradley, Schneider Electric, y otros PLC principales"
     },
     {
       icon: Cpu,
       title: "Edge Computing",
-      description: "Industrial-grade embedded PCs designed for harsh manufacturing environments"
+      description: "PCs embebidos de grado industrial diseñados para entornos de manufactura adversos"
     },
     {
       icon: Shield,
-      title: "Secure Communication",
-      description: "End-to-end encryption and industrial cybersecurity protocols"
+      title: "Comunicación Segura",
+      description: "Cifrado de extremo a extremo y protocolos de ciberseguridad industrial"
     },
     {
       icon: Zap,
-      title: "Real-time Processing",
-      description: "Sub-second response times for critical operational queries"
+      title: "Procesamiento en Tiempo Real",
+      description: "Tiempos de respuesta sub-segundo para consultas operacionales críticas"
     },
     {
       icon: MessageSquare,
-      title: "Natural Language Queries",
-      description: "Ask questions about plant status in plain English and get intelligent responses"
+      title: "Consultas en Lenguaje Natural",
+      description: "Haz preguntas sobre el estado de la planta en español simple y obtén respuestas inteligentes"
     },
     {
       icon: BarChart3,
-      title: "Advanced Analytics",
-      description: "Predictive insights and trend analysis powered by machine learning"
+      title: "Analítica Avanzada",
+      description: "Insights predictivos y análisis de tendencias potenciados por machine learning"
     }
   ];
 
@@ -45,14 +45,14 @@ const TechnologySection = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-4 px-4 py-2">
-            Technology Overview
+            Resumen Tecnológico
           </Badge>
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-            Bridging <span className="text-primary">OT & AI</span>
+            Conectando <span className="text-primary">OT e IA</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Our embedded solutions create intelligent interfaces between your operational 
-            technology and advanced AI systems, enabling unprecedented plant visibility.
+            Nuestras soluciones embebidas crean interfaces inteligentes entre tu 
+            tecnología operacional y sistemas de IA avanzados, habilitando visibilidad de planta sin precedentes.
           </p>
         </div>
 
@@ -68,16 +68,16 @@ const TechnologySection = () => {
                   className="w-full h-64 object-cover"
                 />
                 <div className="p-6">
-                  <h3 className="text-2xl font-bold mb-3">Industrial Embedded Computing</h3>
+                  <h3 className="text-2xl font-bold mb-3">Computación Industrial Embebida</h3>
                   <p className="text-muted-foreground mb-4">
-                    Ruggedized embedded PCs with specialized I/O modules for seamless 
-                    integration with your existing automation infrastructure.
+                    PCs embebidos ruguerizados con módulos de E/S especializados para integración 
+                    perfecta con tu infraestructura de automatización existente.
                   </p>
                   <div className="flex flex-wrap gap-2">
-                    <Badge variant="secondary">Fanless Design</Badge>
-                    <Badge variant="secondary">Wide Temperature Range</Badge>
-                    <Badge variant="secondary">Industrial I/O</Badge>
-                    <Badge variant="secondary">Edge AI Processing</Badge>
+                    <Badge variant="secondary">Diseño Sin Ventiladores</Badge>
+                    <Badge variant="secondary">Rango Amplio de Temperatura</Badge>
+                    <Badge variant="secondary">E/S Industrial</Badge>
+                    <Badge variant="secondary">Procesamiento IA en el Edge</Badge>
                   </div>
                 </div>
               </CardContent>
@@ -94,16 +94,16 @@ const TechnologySection = () => {
                   className="w-full h-64 object-cover"
                 />
                 <div className="p-6">
-                  <h3 className="text-2xl font-bold mb-3">Intelligent Query System</h3>
+                  <h3 className="text-2xl font-bold mb-3">Sistema de Consultas Inteligente</h3>
                   <p className="text-muted-foreground mb-4">
-                    Advanced LLM+RAG architecture that understands your plant operations 
-                    and provides contextual, actionable insights in real-time.
+                    Arquitectura LLM+RAG avanzada que comprende las operaciones de tu planta 
+                    y proporciona insights contextuales y accionables en tiempo real.
                   </p>
                   <div className="flex flex-wrap gap-2">
-                    <Badge variant="secondary">Natural Language</Badge>
-                    <Badge variant="secondary">Contextual AI</Badge>
-                    <Badge variant="secondary">Real-time Data</Badge>
-                    <Badge variant="secondary">Predictive Analytics</Badge>
+                    <Badge variant="secondary">Lenguaje Natural</Badge>
+                    <Badge variant="secondary">IA Contextual</Badge>
+                    <Badge variant="secondary">Datos en Tiempo Real</Badge>
+                    <Badge variant="secondary">Analítica Predictiva</Badge>
                   </div>
                 </div>
               </CardContent>
@@ -131,7 +131,7 @@ const TechnologySection = () => {
         {/* CTA */}
         <div className="text-center">
           <Button variant="hero" size="lg" className="px-8 py-4">
-            Schedule Technical Demo
+            Agendar Demo Técnico
           </Button>
         </div>
       </div>

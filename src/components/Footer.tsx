@@ -15,41 +15,41 @@ const Footer = () => {
               />
               <div>
                 <h3 className="text-lg font-bold">FLOWGUARD</h3>
-                <p className="text-primary-foreground/70 text-sm">Industrial AI Solutions</p>
+                <p className="text-primary-foreground/70 text-sm">Soluciones IA Industrial</p>
               </div>
             </div>
             <p className="text-primary-foreground/80 max-w-md">
-              Transforming industrial operations with intelligent LLM+RAG solutions. 
-              Connecting OT systems to unlock unprecedented plant intelligence.
+              Transformando operaciones industriales con soluciones inteligentes LLM+RAG. 
+              Conectando sistemas OT para desbloquear inteligencia de planta sin precedentes.
             </p>
           </div>
 
           {/* Solutions */}
           <div>
-            <h4 className="font-semibold mb-4">Solutions</h4>
+            <h4 className="font-semibold mb-4">Soluciones</h4>
             <ul className="space-y-2 text-primary-foreground/80">
-              <li><a href="#" className="hover:text-accent transition-colors">PLC Integration</a></li>
+              <li><a href="#" className="hover:text-accent transition-colors">Integración PLC</a></li>
               <li><a href="#" className="hover:text-accent transition-colors">Edge Computing</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">AI Analytics</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Predictive Maintenance</a></li>
+              <li><a href="#" className="hover:text-accent transition-colors">Analítica IA</a></li>
+              <li><a href="#" className="hover:text-accent transition-colors">Mantenimiento Predictivo</a></li>
             </ul>
           </div>
 
           {/* Company */}
           <div>
-            <h4 className="font-semibold mb-4">Company</h4>
+            <h4 className="font-semibold mb-4">Empresa</h4>
             <ul className="space-y-2 text-primary-foreground/80">
-              <li><a href="#" className="hover:text-accent transition-colors">About Us</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Careers</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Partners</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Support</a></li>
+              <li><a href="#" className="hover:text-accent transition-colors">Acerca de Nosotros</a></li>
+              <li><a href="#" className="hover:text-accent transition-colors">Carreras</a></li>
+              <li><a href="#" className="hover:text-accent transition-colors">Socios</a></li>
+              <li><a href="#" className="hover:text-accent transition-colors">Soporte</a></li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
           <p className="text-primary-foreground/60">
-            © 2024 FLOWGUARD. All rights reserved. | Privacy Policy | Terms of Service
+            © 2025 FLOWGUARD. Todos los derechos reservados. | Política de Privacidad | Términos de Servicio
           </p>
         </div>
       </div>
